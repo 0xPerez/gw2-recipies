@@ -8,10 +8,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <div>
+      <header>
       <h1>Hidersine's Junk Drawer</h1>
       <p>A quick refence/look up tool for GW2 recipies</p>
-      </div>
+      </header>
 
       <div>
         <input
@@ -23,10 +23,10 @@ function App() {
       </div>
 
 
-      <Routes>
+      {/* <Routes>
         <Route path="/SearchResult" element={<SearchResult />} />
-        {/* For future use, probably some more crafting features, ROI, WIKI, ETC. */}
-      </Routes>
+        For future use, probably some more crafting features, ROI, WIKI, ETC.
+      </Routes> */}
 
     </>
   )

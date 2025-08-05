@@ -1,7 +1,12 @@
-function GetRecipie() {
-  return (
-    null
-  )
-}
+// import { createContext, useState, useEffect } from 'react';
 
-export default GetRecipie;
+//   export const Search = createContext();
+
+// export default function GetRecipie({children}) {
+//   const []
+//   return (
+//     null
+//   )
+// }
+
+// export default GetRecipie;
