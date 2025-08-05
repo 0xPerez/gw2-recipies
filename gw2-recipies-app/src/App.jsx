@@ -1,8 +1,11 @@
 import './App.css'
+// import { Routes, Route, Link } from 'react-router-dom';
+
+// import GetRecipie from './GetRecipie'
+// import Search from './Search'
+// import SearchResult from './SearchResult'
 
 function App() {
-
-
   return (
     <>
       <div>
@@ -11,9 +14,19 @@ function App() {
       </div>
 
       <div>
-        <button type="text" placeholder="Search For items"/>
+        <input
+          type="text"
+          placeholder="Search the junk drawer"
+          // onChnage={}
+        />
+        <button id="search-button">Search</button>
       </div>
 
+
+      <Routes>
+        <Route path="/SearchResult" element={<SearchResult />} />
+        {/* For future use, probably some more crafting features, ROI, WIKI, ETC. */}
+      </Routes>
 
     </>
   )

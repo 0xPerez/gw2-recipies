@@ -7,3 +7,11 @@
 // return the recipie
 
 // return the cost for crafting
+
+function Search() {
+  return (
+    null
+  )
+}
+
+export default Search;
